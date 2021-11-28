@@ -21,7 +21,7 @@ body {
   .title { text-align: center;
   }
 }
-.main-page-element {
+.tasks {
   display: block;
   width: 500px;
   margin: 0 auto 0;
