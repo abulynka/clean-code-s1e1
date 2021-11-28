@@ -1,5 +1,6 @@
 /* Clear default styles */
-input,button{
+input,
+button{
   outline:none;
 }
 
@@ -85,7 +86,8 @@ input[type="text"]:focus {
   padding: 0px;
 }
 
-.list__item, .tasks__title {
+.list__item,
+.tasks__title {
   list-style: none;
 }
 
