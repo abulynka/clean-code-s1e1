@@ -160,16 +160,12 @@ button{
 }
 
 /* Edit Task */
-.paragraph__item-input_hide {
-  /*background-color: red;*/
+.paragraph__item-input_hide,
+.paragraph__item-input-title_hide {
   display: none;
 }
 
-ul .list__item.edit-mode input[type=text] {
+.paragraph__item-input_edit {
   display: inline-block;
   width: 224px;
-}
-
-ul .list__item.edit-mode label {
-  display: none;
 }

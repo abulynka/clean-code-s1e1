@@ -96,21 +96,24 @@ var editTask=function(){
     var editInput=listItem.querySelector('input[type=text]');
     var label=listItem.querySelector("label");
     var editBtn=listItem.querySelector(".edit");
-    var containsClass=listItem.classList.contains("edit-mode");
+    var containsClass=editInput.classList.contains("paragraph__item-input_edit");
+
     //If class of the parent is .edit-mode
     if(containsClass){
-
         //switch to .edit-mode
         //label becomes the inputs value.
         label.innerText=editInput.value;
         editBtn.innerText="Edit";
+        label.classList.remove('paragraph__item-input-title_hide');
+        editInput.classList.remove("paragraph__item-input_edit");
+        editInput.classList.add("paragraph__item-input_hide");
     }else{
         editInput.value=label.innerText;
         editBtn.innerText="Save";
+        label.classList.add('paragraph__item-input-title_hide');
+        editInput.classList.add("paragraph__item-input_edit");
+        editInput.classList.remove("paragraph__item-input_hide");
     }
-
-    //toggle .edit-mode on the parent.
-    listItem.classList.toggle("edit-mode");
 };
 
 
