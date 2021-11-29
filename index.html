@@ -11,48 +11,51 @@
     </header>
     <main class="main">
 
-      <p class="main__paragraph" id="main__paragraph-new">
-        <label class="item-value" for="task__new">Add Item</label>
-        <section class="task__wrapper">
-          <input id="task__new" class="task" type="text">
-          <button>Add</button>
+      <p class="main__paragraph paragraph" id="main__paragraph-new">
+        <label class="paragraph__value item-value" for="task__new">Add Item</label>
+        <section class="paragraph__wrapper task__wrapper">
+          <input id="task__new" class="paragraph__item-input task" type="text">
+          <button class="paragraph__item-button">Add</button>
         </section>
       </p>
 
-      <section class="main__paragraph todo">
-        <h3 class="tasks__title">Todo</h3>
-        <ul class="list" id="tasks__incomplete">
-          <li class="list__item">
-            <input type="checkbox">
-            <label class="item-value task">Pay Bills</label>
-            <input type="text" class="task">
-            <button class="edit">Edit</button>
-            <button class="delete">
-              <img src="./remove.svg" alt="">
+      <section class="main__paragraph paragraph todo">
+        <h3 class="paragraph__title tasks__title">Todo</h3>
+        <ul class="paragraph__items list" id="tasks__incomplete">
+
+          <li class="paragraph__item list__item">
+            <input class="paragraph__item-check" type="checkbox">
+            <label class="paragraph__item-input-title item-value task">Pay Bills</label>
+            <input class="paragraph__item-input task" type="text">
+            <button class="paragraph__item-button edit">Edit</button>
+            <button class="paragraph__item-button delete">
+              <img class="paragraph__item-button-icon" src="./remove.svg" alt="">
             </button>
           </li>
-          <li class="list__item edit-mode">
-            <input type="checkbox">
-            <label class="item-value task">Go Shopping</label>
-            <input type="text" value="Go Shopping" class="task">
-            <button class="edit">Save</button>
-            <button class="delete">
-              <img src="./remove.svg" alt="">
+
+          <li class="paragraph__item list__item edit-mode">
+            <input class="paragraph__item-check" type="checkbox">
+            <label class="paragraph__item-input-title item-value task">Go Shopping</label>
+            <input class="paragraph__item-input task" type="text" value="Go Shopping">
+            <button class="paragraph__item-button edit">Save</button>
+            <button class="paragraph__item-button delete">
+              <img class="paragraph__item-button-icon" src="./remove.svg" alt="">
             </button>
           </li>
+
         </ul>
       </section>
 
-      <section class="main__paragraph completed">
-        <h3 class="tasks__title">Completed</h3>
-        <ul class="list" id="tasks__completed">
-          <li class="list__item">
-            <input type="checkbox" checked>
-            <label class="item-value task">See the Doctor</label>
-            <input type="text" class="task">
-            <button class="edit">Edit</button>
-            <button class="delete">
-              <img src="./remove.svg" alt="">
+      <section class="main__paragraph paragraph completed">
+        <h3 class="paragraph__title tasks__title">Completed</h3>
+        <ul class="paragraph__items list" id="tasks__completed">
+          <li class="paragraph__item list__item">
+            <input class="paragraph__item-check" type="checkbox" checked>
+            <label class="paragraph__item-input-title item-value task">See the Doctor</label>
+            <input class="paragraph__item-input task" type="text">
+            <button class="paragraph__item-button edit">Edit</button>
+            <button class="paragraph__item-button delete">
+              <img class="paragraph__item-button-icon" src="./remove.svg" alt="">
             </button>
           </li>
         </ul>
