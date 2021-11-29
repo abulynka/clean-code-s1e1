@@ -104,12 +104,12 @@ button{
 }
 
 /* New Task */
-label[for="task__new"] {
+.paragraph__value[for="task__new"] {
   display: block;
   margin: 0 0 20px;
 }
 
-input#task__new {
+.paragraph__item-input_new {
   width: 318px;
 }
 
@@ -128,7 +128,7 @@ input#task__new {
   vertical-align: middle;
 }
 
-.list__item > input[type="checkbox"] {
+.paragraph__item-check {
   margin: 0 10px;
 }
 
