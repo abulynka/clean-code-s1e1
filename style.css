@@ -154,13 +154,14 @@ button{
 }
 
 /* Completed */
-ul#completed-tasks label {
+.paragraph__items_completed > .paragraph__item-input-title {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-ul .list__item input[type=text] {
+.paragraph__item-input_hide {
+  /*background-color: red;*/
   display: none;
 }
 

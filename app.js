@@ -44,6 +44,7 @@ var createNewTaskElement=function(taskString){
     editInput.type="text";
     editInput.className="task";
     editInput.classList.add('paragraph__item-input');
+    editInput.classList.add('paragraph__item-input_hide');
 
     editButton.innerText="Edit"; //innerText encodes special characters, HTML does not.
     editButton.className="edit";
