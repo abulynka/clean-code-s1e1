@@ -9,15 +9,17 @@
       <img class="title__image" src="./eisenhower-matrix.jpg" alt="Title">
       <a class="title__more-info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </header>
-    <main class="tasks">
-      <p class="new" id="new">
+    <main class="main">
+
+      <p class="main__paragraph" id="main__paragraph-new">
         <label class="item-value" for="task__new">Add Item</label>
         <section class="task__wrapper">
           <input id="task__new" class="task" type="text">
           <button>Add</button>
         </section>
       </p>
-      <section class="todo">
+
+      <section class="main__paragraph todo">
         <h3 class="tasks__title">Todo</h3>
         <ul class="list" id="tasks__incomplete">
           <li class="list__item">
@@ -40,7 +42,8 @@
           </li>
         </ul>
       </section>
-      <section class="completed">
+
+      <section class="main__paragraph completed">
         <h3 class="tasks__title">Completed</h3>
         <ul class="list" id="tasks__completed">
           <li class="list__item">
@@ -54,6 +57,7 @@
           </li>
         </ul>
       </section>
+
     </main>
     <script src="app.js"></script>
   </body>
