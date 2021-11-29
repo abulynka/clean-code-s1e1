@@ -4,7 +4,7 @@ button{
   outline:none;
 }
 
-button {
+.paragraph__item-button {
   background: none;
   border: 0px;
   color: #888;
@@ -14,11 +14,11 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.paragraph__item-button:hover {
   color: #3a3a3a;
 }
 
-input[type="text"] {
+.paragraph__item-input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -31,7 +31,7 @@ input[type="text"] {
   color: #888;
 }
 
-input[type="text"]:focus {
+.paragraph__item-input:focus {
   color: #333;
 }
 
