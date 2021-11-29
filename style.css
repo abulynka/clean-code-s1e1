@@ -82,12 +82,12 @@ button{
   display: flex;
 }
 
-.list {
+.paragraph__items {
   margin: 0;
   padding: 0px;
 }
 
-.list__item,
+.paragraph__item,
 .tasks__title {
   list-style: none;
 }
@@ -115,7 +115,7 @@ button{
 }
 
 /* Task list */
-.list__item {
+.paragraph__item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -125,7 +125,7 @@ button{
   align-items: center;
 }
 
-.list__item > * {
+.paragraph__item > * {
   vertical-align: middle;
 }
 
@@ -140,7 +140,7 @@ button{
   width: 226px;
 }
 
-.list__item > .paragraph__item-input {
+.paragraph__item > .paragraph__item-input {
   width: 226px;
 }
 
