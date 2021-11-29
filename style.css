@@ -139,7 +139,7 @@ button{
   width: 226px;
 }
 
-.list__item >    input[type="text"] {
+.list__item > .paragraph__item-input {
   width: 226px;
 }
 
