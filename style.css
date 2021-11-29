@@ -71,13 +71,14 @@ button{
   margin: 0 auto 0;
 }
 
-.task {
+.paragraph__item-input,
+.paragraph__item-input-title {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
 
-.task__wrapper {
+.paragraph__wrapper {
   display: flex;
 }
 
@@ -93,7 +94,7 @@ button{
 
 /* Heading */
 .tasks__title,
-.item-value[for="task__new"] {
+.paragraph__value[for="task__new"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;

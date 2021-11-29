@@ -34,7 +34,6 @@ var createNewTaskElement=function(taskString){
     var deleteButtonImg=document.createElement("img");//delete button image
 
     label.innerText=taskString;
-    label.className='task';
     label.classList.add('paragraph__item-input-title');
 
     //Each elements, needs appending
@@ -42,7 +41,6 @@ var createNewTaskElement=function(taskString){
     checkBox.classList.add('paragraph__item-check');
 
     editInput.type="text";
-    editInput.className="task";
     editInput.classList.add('paragraph__item-input');
     editInput.classList.add('paragraph__item-input_hide');
 
